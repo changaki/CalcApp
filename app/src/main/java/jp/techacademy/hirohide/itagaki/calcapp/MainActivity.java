@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // 背景にフォーカスを移す
             mainLayout.requestFocus();
 
-            Snackbar.make(v, "何か数値を入力してください", Snackbar.LENGTH_INDEFINITE).show();
+            Snackbar.make(v, "何か数値を入力してください", Snackbar.LENGTH_LONG).show();
             Log.d("calc_app", e.getMessage());
             return;
         }
